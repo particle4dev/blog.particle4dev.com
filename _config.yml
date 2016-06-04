@@ -4,10 +4,10 @@ exclude: ["README.md", "config.ru", "Gemfile", "Gemfile.lock", "vendor"] # files
 permalink:        pretty
 
 # Setup
-url:              http://qwtel.com
+url:              http://www.particle4dev.com
 
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
-baseurl:          /hydejack
+baseurl:          ''
 
 title:            Hydejack
 
