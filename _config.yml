@@ -1,21 +1,36 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md", "config.ru", "Gemfile", "Gemfile.lock", "vendor"] # files to exclude
+highlighter: pygments
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: iojs vietnam community
+
+name: iojs vietnam community
+url: http://particle4dev.com/
+baseurl: "" # the subpath of your site, e.g. /blog
+description: iojs vietnam community Blog
+author:
+  name: particle4dev-blog
+  email: particle4dev@gmail.com
+  github: particle4dev
+  twitter: particle4dev
+  pinterest: particle4dev
+  linkedin: particle4dev
+  bio: Bringing ES6 to the Node Community in Vietnam!
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+gems:
+- jekyll-sitemap
+
+BASE_PATH:
