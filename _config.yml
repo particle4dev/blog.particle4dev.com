@@ -40,7 +40,7 @@ author:
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
     Hoang Nam is a software engineer living in Ha Noi, Viet Nam.
-    He does cloudy stuff with computers, currently for [CityMe](cityme.vn). He love open source projects as much as he loved his job.
+    He does cloudy stuff with computers, currently for [CityMe](https://www.cityme.vn). He love open source projects as much as he loved his job.
     You can find him on twitter, where he is @particle4dev
 
 kramdown:
