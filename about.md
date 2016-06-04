@@ -15,4 +15,5 @@ title: About
 
 {{ site.author.about }}
 
-[write something about self]
+### Contact me
+<a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>

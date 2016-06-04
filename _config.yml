@@ -25,6 +25,7 @@ color: '#A85641'
 
 author:
   name: 'Hoang Nam'
+  email: 'particle4dev@gmail.com'
 
   # Setting social media usernames will add icons at the bottom of the sidebar
   twitter: particle4dev
@@ -38,10 +39,9 @@ author:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
-    Hi, I'm Hoang Nam or [`@particle4dev`](https://www.twitter.com/particle4dev), which isn't an acronym,
-    I just [wanted a short username](http://particle4dev.com/how-to-find-a-short-username) and that one happened to be available.
-
-    Read my thoughts on [#software](http://particle4dev.com/tag/software) and [#cryptoeconomics](http://qwtel.com/tag/cryptoeconomics).
+    Hoang Nam is a software engineer living in Ha Noi, Viet Nam.
+    He does cloudy stuff with computers, currently for [CityMe](cityme.vn). He love open source projects as much as he loved his job.
+    You can find him on twitter, where he is @particle4dev
 
 kramdown:
   math_engine: mathjax
