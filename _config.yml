@@ -12,11 +12,9 @@ baseurl: ''
 title: Hydejack
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
-description:      >
-  A pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by [`@qwtel`](https://twitter.com/qwtel)
-  from [Hyde](http://hyde.getpoole.com).
-  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
-
+description: >
+  A geek, i ♡ containers, [Docker](https://www.docker.com), [Golang](https://golang.org), [Nodejs](https://nodejs.org/en).
+  
 # The tags listed as entries in the sidebar
 sidebar_tags: [jekyll, hyde]
 
