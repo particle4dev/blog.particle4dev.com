@@ -1,3 +1,5 @@
+exclude: ["README.md", "config.ru", "Gemfile", "Gemfile.lock", "vendor"] # files to exclude
+
 # Permalinks
 permalink:        pretty
 
