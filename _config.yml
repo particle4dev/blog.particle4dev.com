@@ -1,36 +1,48 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md", "config.ru", "Gemfile", "Gemfile.lock", "vendor"] # files to exclude
-highlighter: pygments
-markdown: kramdown
+# Permalinks
+permalink:        pretty
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: iojs vietnam community
+# Setup
+url:              http://qwtel.com
 
-name: iojs vietnam community
-url: http://particle4dev.com/
-baseurl: "" # the subpath of your site, e.g. /blog
-description: iojs vietnam community Blog
+# Set to '' in case of hosting on `http://<your-github-name>.github.io`
+baseurl:          /hydejack
+
+title:            Hydejack
+
+# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
+description:      >
+  A pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by [`@qwtel`](https://twitter.com/qwtel)
+  from [Hyde](http://hyde.getpoole.com).
+  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
+
+# The tags listed as entries in the sidebar
+sidebar_tags:     [jekyll, hyde]
+
+# Fallback image and color if not overwritten for tag or post
+image:            /hydejack/public/img/nap.jpg
+color:            '#A85641'
+
 author:
-  name: particle4dev-blog
-  email: particle4dev@gmail.com
-  github: particle4dev
-  twitter: particle4dev
-  pinterest: particle4dev
-  linkedin: particle4dev
-  bio: Bringing ES6 to the Node Community in Vietnam!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name:           'Florian Klampfer'
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+  # Setting social media usernames will add icons at the bottom of the sidebar
+  twitter:        qwtel
+  github:         qwtel
 
-gems:
-- jekyll-sitemap
+  # Setting a disqus username will enable the comment section
+  disqus:         qwtel
 
-BASE_PATH:
+  # This photo will be used in the about section
+  photo:          http://qwtel.com/public/img/flo.jpg
+
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:          |
+    Hi, I'm Florian or [`@qwtel`](https://www.twitter.com/qwtel), which isn't an acronym,
+    I just [wanted a short username](http://qwtel.com/how-to-find-a-short-username) and that one happened to be available.
+
+    Read my thoughts on [#software](http://qwtel.com/tag/software) and [#cryptoeconomics](http://qwtel.com/tag/cryptoeconomics).
+
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    preview: true
