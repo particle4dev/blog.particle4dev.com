@@ -9,31 +9,32 @@ url: http://www.particle4dev.com
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
 baseurl: ''
 
-title: Hydejack
+title: particle4dev
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description: >
   A geek, i ♡ containers, [Docker](https://www.docker.com), [Golang](https://golang.org), [Nodejs](https://nodejs.org/en).
-  
+
 # The tags listed as entries in the sidebar
-sidebar_tags: [jekyll, hyde]
+# sidebar_tags: [jekyll, hyde]
+sidebar_tags: []
 
 # Fallback image and color if not overwritten for tag or post
 image: /public/img/nap.jpg
-color:            '#A85641'
+color: '#A85641'
 
 author:
-  name:           'Hoang Nam'
+  name: 'Hoang Nam'
 
   # Setting social media usernames will add icons at the bottom of the sidebar
-  twitter:        particle4dev
-  github:         particle4dev
+  twitter: particle4dev
+  github: particle4dev
 
   # Setting a disqus username will enable the comment section
-  disqus:         particle4dev
+  disqus: particle4dev
 
   # This photo will be used in the about section
-  photo:          http://www.particle4dev.com/public/img/flo.jpg
+  photo: http://www.particle4dev.com/public/img/flo.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
