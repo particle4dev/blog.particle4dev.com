@@ -19,9 +19,9 @@ hyde:
     Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
     It’s based on Poole, the Jekyll butler.
 
-jekyll:
-  name: Jekyll
+linux:
+  name: linux
   image: /public/img/jekyll.jpg
   color: '#949667'
   description: >
-    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+    Linux (pronounced i/ˈlɪnəks/ LIN-əks or, less frequently, /ˈlaɪnəks/ LYN-əks) is a Unix-like and mostly POSIX-compliant computer operating system (OS) assembled under the model of free and open-source software development and distribution.

@@ -16,8 +16,8 @@ description: >
   A geek, i ♡ containers, [Docker](https://www.docker.com), [Golang](https://golang.org), [Nodejs](https://nodejs.org/en).
 
 # The tags listed as entries in the sidebar
-# sidebar_tags: [jekyll, hyde]
-sidebar_tags: []
+sidebar_tags: [linux]
+# sidebar_tags: []
 
 # Fallback image and color if not overwritten for tag or post
 image: /public/img/nap.jpg
