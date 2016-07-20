@@ -11,17 +11,44 @@
 #     *My Tag* is an example of how to define a custom tag.
 # ~~~
 
-hyde:
-  name: Hyde
-  image: /public/img/hyde.jpg
+cocos2dx:
+  name: cocos2dx
+  image: /public/img/dark.jpg
   color: '#949667'
   description: >
-    Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
-    It’s based on Poole, the Jekyll butler.
+    Cocos2d-x is an open-source and cross platform open source free 2D game engine for mobile game development known for its speed, stability, and easy of use.
+
+devops:
+  name: devops
+  image: /public/img/dark.jpg
+  color: '#949667'
+  description: >
+    DevOps (a clipped compound of development and operations) is a culture, movement or practice that emphasizes the collaboration and communication of both software developers and other information-technology (IT) professionals while automating the process of software delivery and infrastructure changes.
+
+docker:
+  name: docker
+  image: /public/img/dark.jpg
+  color: '#949667'
+  description: >
+    Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.
+
+go:
+  name: go
+  image: /public/img/dark.jpg
+  color: '#949667'
+  description: >
+    Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
 linux:
   name: linux
-  image: /public/img/jekyll.jpg
+  image: /public/img/dark.jpg
   color: '#949667'
   description: >
     Linux (pronounced i/ˈlɪnəks/ LIN-əks or, less frequently, /ˈlaɪnəks/ LYN-əks) is a Unix-like and mostly POSIX-compliant computer operating system (OS) assembled under the model of free and open-source software development and distribution.
+
+nodejs:
+  name: nodejs
+  image: /public/img/dark.jpg
+  color: '#949667'
+  description: >
+    Event-driven I/O server-side JavaScript environment based on V8. Includes API documentation, change-log, examples and announcements.
