@@ -16,11 +16,11 @@ description: >
   A geek, i ♡ containers, [Docker](https://www.docker.com), [Golang](https://golang.org), [Nodejs](https://nodejs.org/en).
 
 # The tags listed as entries in the sidebar
-sidebar_tags: [linux, docker, go, nodejs, devops, cocos2dx]
+sidebar_tags: [linux, docker, go, nodejs, devops, cocos2dx, life]
 # sidebar_tags: []
 
 # Fallback image and color if not overwritten for tag or post
-image: /public/img/nap.jpg
+image: /public/img/dark.jpg
 color: '#A85641'
 
 author:
