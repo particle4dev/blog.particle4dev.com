@@ -21,6 +21,10 @@ twitter: particle4dev
 
 {% include cv/skills.html %}
 
-{% include cv/initiatives.html %}
+{% comment %}
+  {% include cv/initiatives.html %}
+{% endcomment %}
+
+{% include cv/organizations.html %}
 
 {% include cv/interests.html %}
