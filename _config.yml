@@ -35,7 +35,7 @@ author:
   disqus: particle4dev
 
   # This photo will be used in the about section
-  photo: http://www.particle4dev.com/public/img/flo.jpg
+  photo: /public/img/flo.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
