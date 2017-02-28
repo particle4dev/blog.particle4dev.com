@@ -53,9 +53,16 @@ nodejs:
   description: >
     Event-driven I/O server-side JavaScript environment based on V8. Includes API documentation, change-log, examples and announcements.
 
+others:
+  name: others
+  image: /public/img/dark.jpg
+  color: '#949667'
+  description: >
+    My notes in other things
+
 life:
   name: life
   image: /public/img/dark.jpg
   color: '#949667'
   description: >
-    Event-driven I/O server-side JavaScript environment based on V8. Includes API documentation, change-log, examples and announcements.
+    Life style
