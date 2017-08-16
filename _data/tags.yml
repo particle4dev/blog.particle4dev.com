@@ -11,12 +11,12 @@
 #     *My Tag* is an example of how to define a custom tag.
 # ~~~
 
-cocos2dx:
-  name: cocos2dx
+bitcoin-ethereum:
+  name: bitcoin-ethereum
   image: /public/img/dark.jpg
   color: '#949667'
   description: >
-    Cocos2d-x is an open-source and cross platform open source free 2D game engine for mobile game development known for its speed, stability, and easy of use.
+    Ethereum is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality.
 
 devops:
   name: devops
