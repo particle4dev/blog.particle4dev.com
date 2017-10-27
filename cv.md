@@ -17,6 +17,8 @@ twitter: particle4dev
 
 {% include cv/employment.html %}
 
+{% include cv/speaking.html %}
+
 {% include cv/education.html %}
 
 {% include cv/skills.html %}
