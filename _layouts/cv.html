@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/public/css/cv/skeleton.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/public/css/cv/layout.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"
+    />
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -30,14 +31,12 @@
         <img src="{{ site.author.photo }}" class="me" />
         <h1>{{ page.fullname }}</h1>
         <p>
-            <a href="{{ page.tel_full }}">{{ page.tel }}</a>
+            <a href="{{ page.tel_full }}">{{ page.tel }}</a><br/>
+            {{ page.address }}
         </p>
         <address>
             <a href="{{ site.google_maps }}">
-                {{ site.address }}<br/>
-                {{ site.postcode }}<br/>
-                {{ page.city }}<br/>
-                {{ page.country }}
+                {{ page.about }}<br/>
             </a>
         </address>
         <p>
@@ -51,11 +50,11 @@
     </header>
     <div class="thirteen columns clearfix">
         {{ content }}
-    <footer class="thirteen columns">
-        <p>
-            © All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> with ♥
-        </p>
-    </footer>
+        <footer class="thirteen columns">
+            <p>
+                © All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> with ♥
+            </p>
+        </footer>
     </div>
 </div>
 {% include analytics.html %}
