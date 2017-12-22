@@ -66,3 +66,10 @@ life:
   color: '#949667'
   description: >
     Life style
+
+graphql:
+  name: graphql
+  image: /public/img/dark.jpg
+  color: '#949667'
+  description: >
+    GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.
